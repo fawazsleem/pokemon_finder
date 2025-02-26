@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokeymon data finder</title>
+    <link rel="stylesheet" href="asset/style/style.css">
+</head>
+<body>
+    <div class="input">
+        <div class="type"><p id="in">Enter your pokemon name:</p></div>
+
+        <from>
+            <input type="text" placeholder="pokemon name:" id="pokemon_name">
+            <input type="submit" onclick="fetch_data();" placeholder="scarch" id="button">
+        </from>
+    </div>
+
+    <div id="data" style="display: none;">
+        <p id="name"></p>
+        <p id="id"></p>
+        <p id="height"></p>
+        <p id="weight"></p>
+        <img src="" id="image" style="display: none;">
+    </div>
+
+    <script src="asset/js/script.js"></script>
+</body>
+</html>
